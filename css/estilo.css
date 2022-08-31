@@ -1,0 +1,54 @@
+header .divColor {
+  background-color: red;
+  border: 1px black solid; }
+  header .divColor .logo {
+    width: 300px; }
+  header .divColor .liColor {
+    background-color: grey;
+    border: 1px black solid; }
+    header .divColor .liColor .aColor {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase; }
+  header .divColor .tituloIndex {
+    font-family: "Calligraffitti", cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    left: 50px; }
+
+header .parrafoIndex {
+  font-family: "Cormorant SC", cursive;
+  font-size: 20px;
+  text-align: center; }
+
+.h2Main {
+  font-family: "Calligraffitti", cursive;
+  font-weight: bolder;
+  font-size: 60px; }
+
+.Ropa {
+  width: 600px; }
+
+footer {
+  border: 1px black solid;
+  background-color: red;
+  text-align: start;
+  font-family: "Cormorant SC", cursive; }
+
+.contenedor-fluid {
+  overflow-x: none; }
+
+.fixed {
+  position: fixed;
+  transition: all 0,3;
+  bottom: 0px;
+  right: 0px;
+  width: 120px;
+  border-radius: 30px; }
+  .fixed:hover {
+    width: 200px;
+    height: 150px; }
+
+@media screen and (max-width: 990px) {
+  .tituloIndex {
+    display: none; } }

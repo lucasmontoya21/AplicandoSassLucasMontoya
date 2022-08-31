@@ -1,0 +1,38 @@
+@import "variables";
+
+
+header {
+
+    .divColor {
+       background-color: red;
+       border: 1px black solid;
+
+       .logo {
+            width: 300px;
+        }
+
+        .liColor {
+            background-color: grey;
+            border: 1px black solid;
+
+        .aColor {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        }
+
+        .tituloIndex{
+            font-family: $estilo-fuente-principal;
+            font-size: $tam-fuente-titulo;
+            font-weight: bolder;
+            left: 50px;
+        }
+    }
+
+    .parrafoIndex {
+        font-family: $estilo-fuente-secundaria;
+        font-size: $tam-fuente-parrafo;
+        text-align: center;
+    }
+}
